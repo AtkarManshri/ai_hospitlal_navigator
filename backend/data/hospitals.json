@@ -1,0 +1,288 @@
+[
+  {
+    "hospital_id": "H001",
+    "hospital_name": "Apollo Hospitals",
+    "city": "Mumbai",
+    "hospital_type": "Private",
+    "specialization": ["Cardiology", "Orthopedics", "Oncology", "Neurology", "General Surgery"],
+    "rating": 4.6,
+    "cost_category": "high",
+    "avg_cost_range": {"min": 300000, "max": 800000},
+    "distance": 5.2,
+    "reviews": [
+      {"reviewer": "Rajesh K.", "rating": 5.0, "comment": "Excellent cardiac care. Dr. Mehta was very thorough.", "date": "2025-11-15"},
+      {"reviewer": "Priya S.", "rating": 4.5, "comment": "Good facilities but expensive. Worth it for complex surgeries.", "date": "2025-10-20"},
+      {"reviewer": "Amit P.", "rating": 4.3, "comment": "Professional staff, clean environment. Wait times could be better.", "date": "2025-09-08"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH, JCI",
+    "established_year": 1983,
+    "bed_count": 500
+  },
+  {
+    "hospital_id": "H002",
+    "hospital_name": "Fortis Hospital",
+    "city": "Mumbai",
+    "hospital_type": "Private",
+    "specialization": ["Cardiology", "Orthopedics", "Neurology", "Ophthalmology"],
+    "rating": 4.4,
+    "cost_category": "high",
+    "avg_cost_range": {"min": 250000, "max": 700000},
+    "distance": 8.1,
+    "reviews": [
+      {"reviewer": "Sunita M.", "rating": 4.5, "comment": "Great orthopedic department. My knee surgery went smoothly.", "date": "2025-12-01"},
+      {"reviewer": "Vikram D.", "rating": 4.0, "comment": "Good hospital but billing could be more transparent.", "date": "2025-11-05"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH",
+    "established_year": 2001,
+    "bed_count": 350
+  },
+  {
+    "hospital_id": "H003",
+    "hospital_name": "Lilavati Hospital",
+    "city": "Mumbai",
+    "hospital_type": "Trust",
+    "specialization": ["Cardiology", "Oncology", "General Surgery", "Ophthalmology"],
+    "rating": 4.3,
+    "cost_category": "medium",
+    "avg_cost_range": {"min": 150000, "max": 500000},
+    "distance": 3.5,
+    "reviews": [
+      {"reviewer": "Neha R.", "rating": 4.5, "comment": "Affordable and trustworthy. Been coming here for years.", "date": "2025-10-12"},
+      {"reviewer": "Anil G.", "rating": 4.0, "comment": "Good doctors, older infrastructure compared to newer hospitals.", "date": "2025-08-22"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH",
+    "established_year": 1978,
+    "bed_count": 300
+  },
+  {
+    "hospital_id": "H004",
+    "hospital_name": "Ruby Hall Clinic",
+    "city": "Pune",
+    "hospital_type": "Private",
+    "specialization": ["Cardiology", "Orthopedics", "Neurology", "General Surgery"],
+    "rating": 4.5,
+    "cost_category": "medium",
+    "avg_cost_range": {"min": 150000, "max": 450000},
+    "distance": 2.3,
+    "reviews": [
+      {"reviewer": "Shreya T.", "rating": 4.8, "comment": "Best hospital in Pune. Dr. Patel is an amazing cardiologist.", "date": "2025-11-28"},
+      {"reviewer": "Manoj K.", "rating": 4.2, "comment": "Good overall experience. Parking is a challenge.", "date": "2025-10-15"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH",
+    "established_year": 1969,
+    "bed_count": 450
+  },
+  {
+    "hospital_id": "H005",
+    "hospital_name": "Sahyadri Hospitals",
+    "city": "Pune",
+    "hospital_type": "Private",
+    "specialization": ["Orthopedics", "Neurology", "Oncology", "Ophthalmology"],
+    "rating": 4.3,
+    "cost_category": "medium",
+    "avg_cost_range": {"min": 120000, "max": 400000},
+    "distance": 4.7,
+    "reviews": [
+      {"reviewer": "Pooja D.", "rating": 4.5, "comment": "Excellent orthopedic care. Recovery was faster than expected.", "date": "2025-12-10"},
+      {"reviewer": "Rahul S.", "rating": 4.0, "comment": "Good hospital with reasonable pricing.", "date": "2025-09-30"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH",
+    "established_year": 1994,
+    "bed_count": 280
+  },
+  {
+    "hospital_id": "H006",
+    "hospital_name": "Jehangir Hospital",
+    "city": "Pune",
+    "hospital_type": "Trust",
+    "specialization": ["General Surgery", "Orthopedics", "Cardiology"],
+    "rating": 4.1,
+    "cost_category": "low",
+    "avg_cost_range": {"min": 80000, "max": 300000},
+    "distance": 1.8,
+    "reviews": [
+      {"reviewer": "Kiran V.", "rating": 4.0, "comment": "Affordable and reliable. A Pune institution.", "date": "2025-11-02"},
+      {"reviewer": "Suresh B.", "rating": 4.2, "comment": "Good value for money. Staff is very helpful.", "date": "2025-08-14"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH",
+    "established_year": 1946,
+    "bed_count": 350
+  },
+  {
+    "hospital_id": "H007",
+    "hospital_name": "AIIMS Delhi",
+    "city": "Delhi",
+    "hospital_type": "Government",
+    "specialization": ["Cardiology", "Orthopedics", "Oncology", "Neurology", "Ophthalmology", "General Surgery"],
+    "rating": 4.7,
+    "cost_category": "low",
+    "avg_cost_range": {"min": 20000, "max": 150000},
+    "distance": 12.0,
+    "reviews": [
+      {"reviewer": "Deepak M.", "rating": 4.8, "comment": "World-class doctors at very affordable prices. Long wait times though.", "date": "2025-12-15"},
+      {"reviewer": "Anjali P.", "rating": 4.5, "comment": "Best government hospital. OPD can be crowded but care is excellent.", "date": "2025-11-20"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH, JCI",
+    "established_year": 1956,
+    "bed_count": 2500
+  },
+  {
+    "hospital_id": "H008",
+    "hospital_name": "Max Super Speciality Hospital",
+    "city": "Delhi",
+    "hospital_type": "Private",
+    "specialization": ["Cardiology", "Oncology", "Neurology", "Orthopedics"],
+    "rating": 4.5,
+    "cost_category": "high",
+    "avg_cost_range": {"min": 280000, "max": 750000},
+    "distance": 7.5,
+    "reviews": [
+      {"reviewer": "Ravi K.", "rating": 4.6, "comment": "Top-notch cancer treatment. The oncology wing is world-class.", "date": "2025-10-28"},
+      {"reviewer": "Meena S.", "rating": 4.3, "comment": "Expensive but quality care. Insurance coverage helped.", "date": "2025-09-15"}
+    ],
+    "scheme_supported": false,
+    "accreditation": "NABH, JCI",
+    "established_year": 2000,
+    "bed_count": 400
+  },
+  {
+    "hospital_id": "H009",
+    "hospital_name": "Sir Ganga Ram Hospital",
+    "city": "Delhi",
+    "hospital_type": "Trust",
+    "specialization": ["General Surgery", "Orthopedics", "Cardiology", "Ophthalmology"],
+    "rating": 4.4,
+    "cost_category": "medium",
+    "avg_cost_range": {"min": 120000, "max": 450000},
+    "distance": 6.2,
+    "reviews": [
+      {"reviewer": "Tanya G.", "rating": 4.5, "comment": "Excellent surgeons. Very caring nursing staff.", "date": "2025-11-10"},
+      {"reviewer": "Mohit R.", "rating": 4.2, "comment": "Good hospital with a legacy of quality care.", "date": "2025-10-01"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH",
+    "established_year": 1921,
+    "bed_count": 675
+  },
+  {
+    "hospital_id": "H010",
+    "hospital_name": "Narayana Health",
+    "city": "Bangalore",
+    "hospital_type": "Private",
+    "specialization": ["Cardiology", "Orthopedics", "Oncology", "Neurology"],
+    "rating": 4.6,
+    "cost_category": "medium",
+    "avg_cost_range": {"min": 150000, "max": 500000},
+    "distance": 15.0,
+    "reviews": [
+      {"reviewer": "Lakshmi N.", "rating": 4.8, "comment": "Dr. Devi Shetty's hospital. Affordable heart surgeries with great outcomes.", "date": "2025-12-05"},
+      {"reviewer": "Suresh K.", "rating": 4.4, "comment": "Great cardiac care at reasonable prices. A bit far from city center.", "date": "2025-11-18"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH, JCI",
+    "established_year": 2000,
+    "bed_count": 600
+  },
+  {
+    "hospital_id": "H011",
+    "hospital_name": "Manipal Hospital",
+    "city": "Bangalore",
+    "hospital_type": "Private",
+    "specialization": ["Orthopedics", "Neurology", "Oncology", "General Surgery", "Ophthalmology"],
+    "rating": 4.4,
+    "cost_category": "high",
+    "avg_cost_range": {"min": 250000, "max": 650000},
+    "distance": 6.8,
+    "reviews": [
+      {"reviewer": "Kavitha R.", "rating": 4.5, "comment": "Excellent neurosurgery department. State-of-the-art equipment.", "date": "2025-10-22"},
+      {"reviewer": "Prasad M.", "rating": 4.2, "comment": "Good hospital, professional staff. A bit pricey.", "date": "2025-09-12"}
+    ],
+    "scheme_supported": false,
+    "accreditation": "NABH",
+    "established_year": 1991,
+    "bed_count": 350
+  },
+  {
+    "hospital_id": "H012",
+    "hospital_name": "Apollo Hospitals Chennai",
+    "city": "Chennai",
+    "hospital_type": "Private",
+    "specialization": ["Cardiology", "Orthopedics", "Oncology", "Neurology", "General Surgery"],
+    "rating": 4.7,
+    "cost_category": "high",
+    "avg_cost_range": {"min": 280000, "max": 750000},
+    "distance": 4.5,
+    "reviews": [
+      {"reviewer": "Ramesh S.", "rating": 4.9, "comment": "The flagship Apollo hospital. Best cardiac care in South India.", "date": "2025-12-08"},
+      {"reviewer": "Divya K.", "rating": 4.5, "comment": "Excellent facilities but premium pricing. Worth every rupee.", "date": "2025-11-25"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH, JCI",
+    "established_year": 1983,
+    "bed_count": 700
+  },
+  {
+    "hospital_id": "H013",
+    "hospital_name": "Government General Hospital",
+    "city": "Chennai",
+    "hospital_type": "Government",
+    "specialization": ["General Surgery", "Orthopedics", "Cardiology", "Ophthalmology", "Neurology"],
+    "rating": 3.8,
+    "cost_category": "low",
+    "avg_cost_range": {"min": 15000, "max": 120000},
+    "distance": 2.0,
+    "reviews": [
+      {"reviewer": "Kumar P.", "rating": 3.5, "comment": "Very affordable. Doctors are good but facilities need upgrade.", "date": "2025-10-05"},
+      {"reviewer": "Lakshmi S.", "rating": 4.0, "comment": "Decent care for the price. Overcrowded OPD.", "date": "2025-08-30"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH",
+    "established_year": 1664,
+    "bed_count": 2800
+  },
+  {
+    "hospital_id": "H014",
+    "hospital_name": "KEM Hospital",
+    "city": "Pune",
+    "hospital_type": "Government",
+    "specialization": ["General Surgery", "Orthopedics", "Ophthalmology"],
+    "rating": 3.9,
+    "cost_category": "low",
+    "avg_cost_range": {"min": 20000, "max": 150000},
+    "distance": 3.0,
+    "reviews": [
+      {"reviewer": "Sachin P.", "rating": 4.0, "comment": "Good government hospital in Pune. Affordable treatments.", "date": "2025-11-12"},
+      {"reviewer": "Manisha K.", "rating": 3.8, "comment": "Decent care. Long waiting times for elective surgeries.", "date": "2025-09-25"}
+    ],
+    "scheme_supported": true,
+    "accreditation": "NABH",
+    "established_year": 1912,
+    "bed_count": 600
+  },
+  {
+    "hospital_id": "H015",
+    "hospital_name": "Kokilaben Dhirubhai Ambani Hospital",
+    "city": "Mumbai",
+    "hospital_type": "Private",
+    "specialization": ["Cardiology", "Oncology", "Neurology", "Orthopedics", "Ophthalmology"],
+    "rating": 4.7,
+    "cost_category": "high",
+    "avg_cost_range": {"min": 350000, "max": 900000},
+    "distance": 10.5,
+    "reviews": [
+      {"reviewer": "Nisha T.", "rating": 4.9, "comment": "Absolutely world-class. Robotic surgery options available.", "date": "2025-12-12"},
+      {"reviewer": "Arjun M.", "rating": 4.6, "comment": "Premium hospital with cutting-edge technology. Very expensive though.", "date": "2025-11-08"}
+    ],
+    "scheme_supported": false,
+    "accreditation": "NABH, JCI",
+    "established_year": 2009,
+    "bed_count": 750
+  }
+]
